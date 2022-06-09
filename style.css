@@ -2,10 +2,43 @@
     box-sizing: border-box;
   }
 
+body {
+    background-color: #E5E5E5;
+}
+
+body > div {
+    width: 614px;
+}
+
 body  h1{
     font-family: 'Righteous', cursive;
 }
 
 body p {
     font-family: 'Roboto', sans-serif;
+}
+
+.barra-do-topo {
+    display: flex;
+    align-items: center;
+    
+    height: 92px;
+
+    box-shadow: 0 0px 4px 3px rgb(158, 153, 153);
+    
+    background-color: #CF2B2B;
+}
+
+.barra-do-topo div {
+    margin-left: 1%;
+}
+
+.barra-do-topo h1 {
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.barra-do-topo p {
+    font-size: 18px;
+    color: #ffffff;
 }
