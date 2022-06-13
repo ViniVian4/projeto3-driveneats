@@ -61,6 +61,8 @@ body p {
 .menu {
     display: flex;
 
+    height: 230px;
+
     overflow-x: scroll;
 }
 
@@ -77,6 +79,8 @@ body p {
     margin-left: 3%;
 
     border-radius: 15px;
+
+    box-shadow: 0 0 14px 1px rgb(219, 213, 213);
 
     background-color: #FFFFFF;
 }
@@ -181,10 +185,6 @@ ion-icon {
     background-color: #50D074;
 }
 
-.libera-tela-confirma {
-    display: flex;
-}
-
 .tela-confirma p {
     font-size: 20px;
 
@@ -259,4 +259,3 @@ ion-icon {
 .sobremesa-selecionada ion-icon {
     display: initial;
 }
-/*f*/
