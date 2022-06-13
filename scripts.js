@@ -4,6 +4,8 @@ let bebida;
 let sobremesa;
 let preco = 0;
 let msg;
+let nome;
+let endereco;
 
 function atualizaItemsSelecionados(){
     itemsSelecionados++;
@@ -71,9 +73,13 @@ function toggleSobremesaSelecionada(itemEscolhido){
 }
 
 function enviamsg() {
+    nome = prompt("Digite o seu nome");
+    endereco = prompt("Digite o seu endereço");
+    
     msg = "Olá, gostaria de fazer o pedido:\n - Prato: " 
     + prato + "\n - Bebida: " + bebida + "\n - Sobremesa: " 
-    + sobremesa + "\n Total: R$ " + preco.toFixed(2);
+    + sobremesa + "\n Total: R$ " + preco.toFixed(2) + "\n \n Nome: "
+    + nome + "\n Endereço: " + endereco;
 
     const msgCodificada = encodeURIComponent(msg);
     const linkwp = "https://wa.me/5531997975054?text=" + msgCodificada;
