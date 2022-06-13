@@ -11,158 +11,184 @@
     <title>DrivenEats</title>
   </head>
   <body>
-    <div class="barra-do-topo">
-      <div>
-        <h1>DrivenEats</h1>
-        <p>Sua comida em 6 minutos</p>
-      </div>
-    </div>
-
-    <div class="cardapio">
-      <h1>Primeiro, seu prato</h1>
-
-      <div class="menu">
-
-        <div class="item" onclick="togglePratoSelecionado(this)">
-          <div>
-            <img src="./imagens/frango_yin_yang 1.png" alt="">
-            <p>Frango Yin Yang</p>
-            <p>Um pouco de batata, um pouco de salada</p>
-            <p class="preco">R$ 14,90</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="togglePratoSelecionado(this)">
-          <div>
-            <img src="./imagens/hamburguer.jpg" alt="">
-            <p>Hamburguer</p>
-            <p>2 smashs, queijo, salada e molho da casa</p>
-            <p class="preco">R$ 15,90</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="togglePratoSelecionado(this)">
-          <div>
-            <img src="./imagens/yakisoba.jpg" alt="">
-            <p>Yakisoba</p>
-            <p>Yakisoba com carne e legumes</p>
-            <p class="preco">R$ 10,90</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="togglePratoSelecionado(this)">
-          <div>
-            <img src="./imagens/pizza.png" alt="">
-            <p>Pizza</p>
-            <p>Mussarela, calabresa e molho de tomate</p>
-            <p class="preco">R$ 18,90</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-      </div>
-
-      <h1>Agora, sua bebida</h1>
-
-      <div class="menu">
-
-        <div class="item" onclick="toggleBebidaSelecionada(this)">
-          <div>
-            <img src="./imagens/coquinha_gelada 1.png" alt="">
-            <p>Coquinha gelada</p>
-            <p>Lata 350ml</p>
-            <p class="preco">R$ 4,90</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="toggleBebidaSelecionada(this)">
-          <div>
-            <img src="./imagens/fanta.jpg" alt="">
-            <p>Fanta</p>
-            <p>Lata 350ml</p>
-            <p class="preco">R$ 6,00</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="toggleBebidaSelecionada(this)">
-          <div>
-            <img src="./imagens/guarana.jpg" alt="">
-            <p>Guaraná</p>
-            <p>Lata 350ml</p>
-            <p class="preco">R$ 7,00</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="toggleBebidaSelecionada(this)">
-          <div>
-            <img src="./imagens/pepsi.png" alt="">
-            <p>Pepsi</p>
-            <p>Lata 350ml</p>
-            <p class="preco">R$ 9,90</p>
-          </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
+    <div class="container">
+      <div class="barra-do-topo">
+        <div>
+          <h1>DrivenEats</h1>
+          <p>Sua comida em 6 minutos</p>
         </div>
       </div>
-
-      <h1>Por fim, sua sobremesa</h1>
-
-      <div class="menu">
-
-        <div class="item" onclick="toggleSobremesaSelecionada(this)">
-          <div>
-            <img src="./imagens/pudim 1.png" alt="">
-            <p>Pudim</p>
-            <p>Apenas pudim</p>
-            <p class="preco">R$ 5,90</p>
+  
+      <div class="cardapio">
+        <h1>Primeiro, seu prato</h1>
+  
+        <div class="menu">
+  
+          <div class="item" onclick="togglePratoSelecionado(this)">
+            <div>
+              <img src="./imagens/frango_yin_yang 1.png" alt="">
+              <p>Frango Yin Yang</p>
+              <p>Um pouco de batata, um pouco de salada</p>
+              <p class="preco">R$ 14,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
           </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
+  
+          <div class="item" onclick="togglePratoSelecionado(this)">
+            <div>
+              <img src="./imagens/hamburguer.jpg" alt="">
+              <p>Hamburguer</p>
+              <p>2 smashs, queijo, salada e molho da casa</p>
+              <p class="preco">R$ 15,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
+  
+          <div class="item" onclick="togglePratoSelecionado(this)">
+            <div>
+              <img src="./imagens/yakisoba.jpg" alt="">
+              <p>Yakisoba</p>
+              <p>Yakisoba com carne e legumes</p>
+              <p class="preco">R$ 10,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
+  
+          <div class="item" onclick="togglePratoSelecionado(this)">
+            <div>
+              <img src="./imagens/pizza.png" alt="">
+              <p>Pizza</p>
+              <p>Mussarela, calabresa e molho de tomate</p>
+              <p class="preco">R$ 18,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
+  
         </div>
-
-        <div class="item" onclick="toggleSobremesaSelecionada(this)">
-          <div>
-            <img src="./imagens/sorvete.jpg" alt="">
-            <p>Sorvete</p>
-            <p>Apenas sorvete</p>
-            <p class="preco">R$ 6,90</p>
+  
+        <h1>Agora, sua bebida</h1>
+  
+        <div class="menu">
+  
+          <div class="item" onclick="toggleBebidaSelecionada(this)">
+            <div>
+              <img src="./imagens/coquinha_gelada 1.png" alt="">
+              <p>Coquinha gelada</p>
+              <p>Lata 350ml</p>
+              <p class="preco">R$ 4,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
           </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
+  
+          <div class="item" onclick="toggleBebidaSelecionada(this)">
+            <div>
+              <img src="./imagens/fanta.jpg" alt="">
+              <p>Fanta</p>
+              <p>Lata 350ml</p>
+              <p class="preco">R$ 6,00</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
+  
+          <div class="item" onclick="toggleBebidaSelecionada(this)">
+            <div>
+              <img src="./imagens/guarana.jpg" alt="">
+              <p>Guaraná</p>
+              <p>Lata 350ml</p>
+              <p class="preco">R$ 7,00</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
+  
+          <div class="item" onclick="toggleBebidaSelecionada(this)">
+            <div>
+              <img src="./imagens/pepsi.png" alt="">
+              <p>Pepsi</p>
+              <p>Lata 350ml</p>
+              <p class="preco">R$ 9,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
         </div>
-
-        <div class="item" onclick="toggleSobremesaSelecionada(this)">
-          <div>
-            <img src="./imagens/bolo.jpg" alt="">
-            <p>Bolo</p>
-            <p>Apenas bolo</p>
-            <p class="preco">R$ 10,00</p>
+  
+        <h1>Por fim, sua sobremesa</h1>
+  
+        <div class="menu">
+  
+          <div class="item" onclick="toggleSobremesaSelecionada(this)">
+            <div>
+              <img src="./imagens/pudim 1.png" alt="">
+              <p>Pudim</p>
+              <p>Apenas pudim</p>
+              <p class="preco">R$ 5,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
           </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
-        </div>
-
-        <div class="item" onclick="toggleSobremesaSelecionada(this)">
-          <div>
-            <img src="./imagens/petit.jpg" alt="">
-            <p>Petit Gateau</p>
-            <p>Bolo com sorvete</p>
-            <p class="preco">R$ 11,00</p>
+  
+          <div class="item" onclick="toggleSobremesaSelecionada(this)">
+            <div>
+              <img src="./imagens/sorvete.jpg" alt="">
+              <p>Sorvete</p>
+              <p>Apenas sorvete</p>
+              <p class="preco">R$ 6,90</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
           </div>
-          <ion-icon name="checkmark-circle-outline"></ion-icon>
+  
+          <div class="item" onclick="toggleSobremesaSelecionada(this)">
+            <div>
+              <img src="./imagens/bolo.jpg" alt="">
+              <p>Bolo</p>
+              <p>Apenas bolo</p>
+              <p class="preco">R$ 10,00</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
+  
+          <div class="item" onclick="toggleSobremesaSelecionada(this)">
+            <div>
+              <img src="./imagens/petit.jpg" alt="">
+              <p>Petit Gateau</p>
+              <p>Bolo com sorvete</p>
+              <p class="preco">R$ 11,00</p>
+            </div>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </div>
         </div>
       </div>
-
+  
       <div class="barra-inferior">
-        <button disabled onclick="window.location.href=enviamsg();">
+        <button disabled onclick="abreTelaConfirma()">
           <p>
             Selecione os 3 itens
             para fechar o pedido
           </p>
         </button>
       </div>
+    </div>
+
+    <div class="tela-confirma">
+      <p>Confirme seu pedido</p>
+      <div>
+        <div>
+          <p class="confirma-prato"></p>
+          <p class="confirma-bebida"></p>
+          <p class="confirma-sobremesa"></p>
+          <p class="total">Total</p>
+        </div>
+        <div class="precos">
+          <p class="preco-prato"></p>
+          <p class="preco-bebida"></p>
+          <p class="preco-sobremesa"></p>
+          <p class="preco-total"></p>
+        </div>
+      </div>
+      <button class="confirmacao" onclick="window.location.href=enviamsg();">
+        <p>Tudo certo, pode pedir!</p> 
+      </button>
+      <button onclick="fechaTelaConfirma()">
+        <p>Cancelar</p>
+      </button>
     </div>
 
     
